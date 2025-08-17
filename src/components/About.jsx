@@ -23,6 +23,12 @@ import {
       "Continuous learning, risk management, and emotional control are the pillars of consistent success in the trading world.",
     icon: ServerIcon,
   },
+   {
+    name: "What Will Wou Do",
+    description:
+      "stock  market में हमें क्या सीखना,¹ Stock कब खरीदना है² उस stock को कब तक होल्ड करना hai³ और उस stock को कब बेचना है⿢एक invester के  पास¹ नजर² सबर³जिगर ये तीनों  चीज़  होनी  चाहिए ",
+    icon: ServerIcon,
+  },
 ];
 function About() {
   return (

@@ -10,17 +10,17 @@ const info = [
   {
     icon: <FaEnvelope className="text-pink-400 group-hover:scale-125 transition-transform duration-300" />,
     label: "Email",
-    value: "ritesh@example.com",
+    value: "riteshjwr2001@gmail.com",
   },
   {
     icon: <FaPhone className="text-green-400 group-hover:scale-125 transition-transform duration-300" />,
     label: "Phone",
-    value: "+91 99999 99999",
+    value: "+91 9001487764",
   },
   {
     icon: <FaMapMarkerAlt className="text-yellow-400 group-hover:scale-125 transition-transform duration-300" />,
     label: "Location",
-    value: "Delhi, India",
+    value: "Jhalawar, Rajasthan",
   },
   {
     icon: <FaBriefcase className="text-blue-400 group-hover:scale-125 transition-transform duration-300" />,
@@ -30,12 +30,12 @@ const info = [
   {
     icon: <FaGraduationCap className="text-purple-400 group-hover:scale-125 transition-transform duration-300" />,
     label: "Education",
-    value: "B.Com (Hons), Delhi University",
+    value: "B.A (Arts), kota University",
   },
   {
     icon: <FaBirthdayCake className="text-red-400 group-hover:scale-125 transition-transform duration-300" />,
     label: "Birthday",
-    value: "16 August 1998",
+    value: "16 August 2002",
   },
 ];
 

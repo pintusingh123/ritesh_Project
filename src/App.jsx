@@ -9,6 +9,7 @@ import About from "./components/About";
 // import Link_sec from
 import Link from "./components/Link";
 import Info from "./components/Infor";
+// import VideoSection from "./components/VideoSection";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Info />
       <Link />
+      {/* <VideoSection /> */}
       <FeaturesSection />
       <Footer />
     </div>

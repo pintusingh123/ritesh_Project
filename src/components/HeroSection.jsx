@@ -14,13 +14,13 @@ function HeroSection() {
           Ritesh Kumar
         </h1>
         <p className=" max-w-xl">
-          Analyze, predict, and stay ahead{" "}
+          Stock market educatio Finance education Technical enalysis{" "}
           <img
             className="inline-block h-9 w-9 mx-2 rounded-full ring-2 ring-gray-200 hover:scale-200 tranform duration-500"
             src="https://randomuser.me/api/portraits/women/4.jpg"
             alt=""
           />{" "}
-          with our professional trading tools.
+          and Fundamantal enalysis
           <img
             className="inline-block mx-1 h-9 w-9 rounded-full ring-2 ring-gray-200 hover:scale-200 tranform duration-500"
             src="https://randomuser.me/api/portraits/women/9.jpg"
