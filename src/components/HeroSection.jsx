@@ -8,7 +8,7 @@ function HeroSection() {
           Hey,I'm{" "}
           <img
             className="inline-block h-8 w-8 mr-2 rounded-full ring-2 ring-gray-200 hover:scale-400 tranform duration-1000"
-            src="./public/short-2.jpg"
+            src="/short-2.jpg"
             alt=""
           />{" "}
           Ritesh Kumar

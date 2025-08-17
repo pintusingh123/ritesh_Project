@@ -64,7 +64,7 @@ function About() {
           </div>
           <img
             alt="Product screenshot"
-            src="./public/ritesh-removebg-preview.png"
+            src="/ritesh-removebg-preview.png"
             className="w-full h-auto  transform hover:scale-105 transition duration-1000 sm:w-[49rem] "
           />
         </div>
