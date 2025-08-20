@@ -10,15 +10,7 @@ function Navbar() {
           <div className="text-xl font-bold">TradePro</div>
           <div className="space-x-6 flex items-center">
             {/* WhatsApp */}
-            <a
-              href="https://wa.me/919999999999"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:scale-110 transition-transform duration-300"
-              title="WhatsApp"
-            >
-              <FaWhatsapp className="text-green-500 hover:text-green-400 text-2xl" />
-            </a>
+            
             {/* Instagram */}
             <a
               href="https://www.instagram.com/ritesht_kumar?igsh=YzljYTk1ODg3Zg=="
