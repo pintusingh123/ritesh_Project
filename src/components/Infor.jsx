@@ -13,11 +13,6 @@ const info = [
     value: "riteshjwr2001@gmail.com",
   },
   {
-    icon: <FaPhone className="text-green-400 group-hover:scale-125 transition-transform duration-300" />,
-    label: "Phone",
-    value: "+91 9001487764",
-  },
-  {
     icon: <FaMapMarkerAlt className="text-yellow-400 group-hover:scale-125 transition-transform duration-300" />,
     label: "Location",
     value: "Jhalawar, Rajasthan",

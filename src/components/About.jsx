@@ -5,30 +5,31 @@ import {
 } from "@heroicons/react/20/solid";
 
  const features = [
-  {
-    name: "Trader's Journey",
+   {
+    name: "1. Stock Market में हमें क्या सीखना है :- ",
     description:
-      "Started with curiosity and a passion for the markets, learning from every win and loss to build a strong trading foundation.",
+      " Stock कब खरीदना है उस stock को कब तक होल्ड करना hai और उस stock को कब बेचना है एक invester के  पास नजर सबर जिगर ये तीनों चीज़ होनी चाहिए ",
+    icon: ServerIcon,
+  },
+  {
+    name: "2. एक Investor के पास :- ",
+    description:
+      "नज़र, सब्र, जिगर 👉 ये तीनों चीज़ होनी चाहिए",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "Experience & Growth",
+    name: "3. Stock Market के 7 स्तंभ :- ",
     description:
-      "Years of dedication, discipline, and adapting to market changes have shaped a resilient and knowledgeable trading mindset.",
+      "📊 Fundamental Analysis ,📈 Technical Analysis , 📊 Risk Management , 📈 Trading Psychology , 📉  Entry और Exit लेना , 💪🧠 Strong Mindset",
     icon: LockClosedIcon,
   },
   {
-    name: "Knowledge & Discipline",
+    name: "Finance के 3 Rules :- ",
     description:
-      "Continuous learning, risk management, and emotional control are the pillars of consistent success in the trading world.",
+      "पैसे कैसे कमाना है, पैसे कैसे बचाना है, पैसे कैसे Invest करना है",
     icon: ServerIcon,
   },
-   {
-    name: "What Will Wou Do",
-    description:
-      "stock  market में हमें क्या सीखना,¹ Stock कब खरीदना है² उस stock को कब तक होल्ड करना hai³ और उस stock को कब बेचना है⿢एक invester के  पास¹ नजर² सबर³जिगर ये तीनों  चीज़  होनी  चाहिए ",
-    icon: ServerIcon,
-  },
+  
 ];
 function About() {
   return (
