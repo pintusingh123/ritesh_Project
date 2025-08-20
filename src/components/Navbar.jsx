@@ -21,7 +21,7 @@ function Navbar() {
             </a>
             {/* Instagram */}
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/ritesht_kumar?igsh=YzljYTk1ODg3Zg=="
               target="_blank"
               rel="noopener noreferrer"
               className="hover:scale-110 transition-transform duration-300"
@@ -31,7 +31,7 @@ function Navbar() {
             </a>
             {/* Facebook */}
             <a
-              href="https://facebook.com/"
+              href="https://www.facebook.com/share/1Ar7WqDk1u/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:scale-110 transition-transform duration-300"

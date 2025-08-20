@@ -1,17 +1,24 @@
  import { useState } from "react";
-import { FaYoutube, FaFacebook, FaArrowRight, FaUserTie, FaChartLine } from "react-icons/fa";
+import { FaYoutube, FaFacebook, FaArrowRight, FaUserTie, FaChartLine, FaInstagram } from "react-icons/fa";
 
 const iconMap = {
-  Youtube: <FaYoutube className="text-red-500   transition-colors duration-300 text-2xl" />,
-  Facebook: <FaFacebook className="text-blue-500   transition-colors duration-300 text-2xl" />,
-  Upstox: <FaChartLine className="text-green-500   transition-colors duration-300 text-2xl" />,
-  "Angel One": <FaUserTie className="text-indigo-400   transition-colors duration-300 text-2xl" />,
+  Instagram: <FaInstagram className="text-pink-500 transition-colors duration-300 text-2xl" />,
+  Youtube: <FaYoutube className="text-red-500 transition-colors duration-300 text-2xl" />,
+  Facebook: <FaFacebook className="text-blue-500 transition-colors duration-300 text-2xl" />,
+  Upstox: <FaChartLine className="text-green-500 transition-colors duration-300 text-2xl" />,
+  "Angel One": <FaUserTie className="text-indigo-400 transition-colors duration-300 text-2xl" />,
 };
 
 const Link = () => {
   const [links] = useState([
     {
       id: 1,
+      title: "Instagram",
+      description: "Instagram account",
+      url: "https://www.instagram.com/ritesht_kumar?igsh=YzljYTk1ODg3Zg==",
+    },
+    {
+      id: 2,
       title: "Youtube",
       description: "YouTube ",
       url: "https://youtube.com/@riteshkumar-bg4gb?si=cWv3g-ijJET6apfQ",
