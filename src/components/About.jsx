@@ -4,8 +4,8 @@ import {
   ServerIcon,
 } from "@heroicons/react/20/solid";
 
- const features = [
-   {
+const features = [
+  {
     name: "1. Stock Market में हमें क्या सीखना है :- ",
     description:
       " Stock कब खरीदना है उस stock को कब तक होल्ड करना hai और उस stock को कब बेचना है एक invester के  पास नजर सबर जिगर ये तीनों चीज़ होनी चाहिए ",
@@ -13,8 +13,7 @@ import {
   },
   {
     name: "2. एक Investor के पास :- ",
-    description:
-      "नज़र, सब्र, जिगर 👉 ये तीनों चीज़ होनी चाहिए",
+    description: "नज़र, सब्र, जिगर 👉 ये तीनों चीज़ होनी चाहिए",
     icon: CloudArrowUpIcon,
   },
   {
@@ -29,7 +28,6 @@ import {
       "पैसे कैसे कमाना है, पैसे कैसे बचाना है, पैसे कैसे Invest करना है",
     icon: ServerIcon,
   },
-  
 ];
 function About() {
   return (
@@ -45,7 +43,9 @@ function About() {
                 A better workflow
               </p>
               <p className="mt-6 text-lg/8 text-gray-300">
-                Success in trading comes from discipline, patience, and continuous learning.Stay focused on your strategy, not your emotions
+                Success in trading comes from discipline, patience, and
+                continuous learning.Stay focused on your strategy, not your
+                emotions
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-300 lg:max-w-none">
                 {features.map((feature) => (
@@ -66,7 +66,8 @@ function About() {
           <img
             alt="Product screenshot"
             src="/ritesh-removebg-preview.png"
-            className="w-full h-auto  transform hover:scale-105 transition duration-1000 sm:w-[49rem] "
+            className="w-full h-auto relative z-10 transform hover:scale-105 transition duration-1000 sm:w-[49rem] drop-shadow-md"
+            style={{ filter: "drop-shadow(0 0 60px black)" }} // #2563eb is Tailwind's blue-600
           />
         </div>
       </div>
